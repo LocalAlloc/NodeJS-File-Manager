@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>File Manager Login Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="header">
+		<div class="top">
+			<div class="logo">
+				<img src="filemanager.png" alt="filemanager" style="width: 175px;">
+			</div>
+			<form action="/submit" method="post">
+				<div class="form">
+					<div class="input_field">
+						<input type="text" placeholder="Username" name="email" class="input">
+					</div>
+					<div class="input_field">
+						<input type="password" placeholder="Password" name="password" class="input">
+					</div>
+					<button type="submit" style="border: none; background: none; outline: none; width: 100%; height: 100%; cursor: pointer;">
+						<div class="btn"><a>Log In</a></div>
+					</button>
+				</div>
+			</form>
+			<div class="or">
+				<div class="line"></div>
+				<p>OR</p>
+				<div class="line"></div>
+			</div>
+			<div class="dif">
+				<div class="forgot">
+					<a href="#">Forgot password? check with your site admin</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

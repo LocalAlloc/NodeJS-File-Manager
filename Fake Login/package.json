@@ -1,0 +1,27 @@
+{
+  "name": "instagram-fake-login",
+  "version": "1.0.0",
+  "description": "Instagram fake login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install": "npm i express ejs body-parser fs moment",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram",
+    "fake",
+    "login"
+  ],
+  "author": "Can & FastUptime",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "memory-store": "^0.0.1",
+    "memorystore": "^1.6.7",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.0"
+  }
+}
